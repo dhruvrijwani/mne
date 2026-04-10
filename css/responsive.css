@@ -1,0 +1,134 @@
+@media(max-width:1619px) {}
+
+@media(max-width:1300px) {}
+
+@media(max-width:1199px) {
+
+.bd-highlight p {
+  font-size: 16px !important;
+}
+.h2, h2 {
+  font-size: 1.6rem;
+}
+
+}
+@media(max-width:991px) {}
+
+@media(max-width:767px) {
+  .carousel-control-next-icon{
+    display: none;
+  }
+  .carousel-control-prev-icon{
+    display: none;
+  }
+  .enqurie-form {
+    width: 100%!important;
+    max-width: 350px!important;
+  }
+  .navbar-brand img {
+    max-width: 190px !important;
+  }
+  .dwn-b {
+    padding: 10px 15px!important;
+  }
+  .bd-highlight {
+    min-height: unset!important;
+    min-height: initial!important;
+    padding: 0.2rem!important;
+  }
+  .aboutsec .row .col-12:last-child{
+    margin-top: 15px!important;
+  }
+  .sectionhero {
+    padding-top: 10px!important;
+  }
+
+}
+
+@media(max-width:600px) {
+  .enqurie-form {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    margin-top: 16px;
+    top: auto;
+    margin-bottom: 16px;
+  }
+  .sectionhero{
+    background-color: #64497e!important;
+  }
+  .banner_bg {
+    background-color: transparent!important;
+  }
+  .programsec {
+    padding: 15px;
+  }
+  .enrolsec iframe {
+    height: 245px!important;
+  }
+  .specifications-section .card-title {
+    font-size: 15px!important;
+  }
+  .card-body p {
+    font-size: 14px!important;
+  }
+  .associates .owl-carousel .owl-item img {
+    max-width: 155px!important;
+  }
+  .associates .owl-prev {
+    left: 10px!important;
+  }
+  .associates .owl-next {
+    right: 10px!important;
+  }
+
+}
+
+@media(max-width:575px) {
+
+
+}
+
+@media(max-width:480px) {
+  .desktop_unique {
+    display: none;
+  }
+
+  .mobile_unique {
+    display: block;
+  }
+}
+
+@media screen and ( min-width: 700px ){
+  .sticky-call{
+    display: none;
+  }
+  .sticky-download{
+    display: none;
+  }
+  .sticky-cta-mobile{
+    display: none !important;
+  }
+}
+.sticky-cta-mobile{
+  position: fixed;
+  bottom: 0px;
+  width: 106%;
+  background: linear-gradient(to right, #b31217, #e52d27);
+  padding: 10px;
+}
+
+.sticky-call{
+  position: fixed;
+  left: 0;
+  top: 50%;
+  background: linear-gradient(to right, #b31217, #e52d27);
+  padding: 10px;
+}
+.sticky-download{
+  position: fixed;
+  right: 0;
+  top: 20%;
+  background: linear-gradient(to right, #b31217, #e52d27);
+  padding: 10px;
+}
