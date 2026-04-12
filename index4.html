@@ -145,7 +145,7 @@ button{font-family:inherit;cursor:pointer}
 
 /* ── CAREER PATHS (merged into outcomes) ─────────────────────────────── */
 .car-merged{background:var(--g50);padding:0 0 88px}
-.car-merged-inner{background:linear-gradient(135deg,#1a0a38 0%,#2d1060 100%);border-radius:var(--r-xl);padding:60px 52px;position:relative;overflow:hidden;margin-top:48px}
+.car-merged-inner{background:linear-gradient(135deg,#1a0a38 0%,#2d1060 100%);border-radius:var(--r-xl);padding:60px 52px;position:relative;overflow:hidden;}
 /* SVG texture elements */
 .car-merged-inner::before{content:"";position:absolute;inset:0;background-image:
   radial-gradient(ellipse 600px 400px at 10% 80%, rgba(200,16,46,.15) 0%, transparent 60%),
@@ -306,7 +306,7 @@ button{font-family:inherit;cursor:pointer}
 .emp-track-wrap::after{right:0;background:linear-gradient(to left,var(--g50),transparent)}
 .emp-track{display:flex;align-items:center;gap:48px;animation:tick 25s linear infinite;width:max-content}
 .emp-track:hover{animation-play-state:paused}
-.emp-logo{flex-shrink:0;height:36px;width:auto;object-fit:contain;transition:opacity var(--tr)}
+.emp-logo{flex-shrink:0;height: 84px;;width:auto;object-fit:contain;transition:opacity var(--tr)}
 .emp-logo:hover{opacity:.8}
 
 /* ── GALLERY CAROUSEL ─────────────────────────────── */
@@ -1241,7 +1241,6 @@ button{font-family:inherit;cursor:pointer}
   <div class="popup-backdrop" id="popupBackdrop"></div>
   <div class="popup-box">
     <div class="popup-hero">
-      <img src="/images/banners/1.jpg" alt="WeSchool Campus" class="popup-hero-img" onerror="this.style.display='none'"/>
       <div class="popup-hero-ov"></div>
       <button class="popup-close" id="popupClose">&times;</button>
       <div class="popup-hero-content">
@@ -1253,7 +1252,6 @@ button{font-family:inherit;cursor:pointer}
       <p class="popup-text">Discover the best <strong>path forward</strong> with a <em>personalized 1-on-1 session</em> — find out if India's #1 Media &amp; Entertainment program is right for you.</p>
       <p class="popup-sub">Free counselling · No obligation · Mumbai campus</p>
       <button class="popup-cta" onclick="document.getElementById('exit-popup').classList.remove('show');document.getElementById('apply').scrollIntoView({behavior:'smooth'})">Book My Free Counselling Session</button>
-      <button class="popup-dismiss" id="popupDismiss">No thanks, I'll figure it out myself</button>
     </div>
   </div>
 </div>
@@ -1365,10 +1363,6 @@ btt.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'
 
   // Close handlers
   document.getElementById('popupClose').addEventListener('click',function(){
-    popup.classList.remove('show');
-    sessionStorage.setItem('popupDismissed','1');
-  });
-  document.getElementById('popupDismiss').addEventListener('click',function(){
     popup.classList.remove('show');
     sessionStorage.setItem('popupDismissed','1');
   });
