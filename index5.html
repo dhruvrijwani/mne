@@ -504,7 +504,7 @@
       .hero-h1 {
         font-family: var(--fd);
         font-size: clamp(2.2rem, 4.5vw, 3.7rem);
-        line-height: 1.1;
+        line-height: 1;
         color: #fff;
         margin-bottom: 18px;
         animation: fuA 0.6s 0.1s ease both;
@@ -516,7 +516,7 @@
       .hero-p {
         font-size: 1.05rem;
         color: rgba(255, 255, 255, 0.82);
-        line-height: 1.7;
+        line-height: 1.45;
         margin-bottom: 32px;
         max-width: 520px;
         animation: fuA 0.6s 0.2s ease both;
@@ -1534,7 +1534,7 @@
       }
       .emp-logo {
         flex-shrink: 0;
-        height: 84px;
+        height: 92px;
         width: auto;
         object-fit: contain;
         transition: opacity var(--tr);
@@ -2945,6 +2945,30 @@
           padding: 20px 16px;
         }
       }
+
+      .cp-alm-card {
+  /* existing styles stay — just add: */
+  align-items: center;
+}
+
+.cp-alm-logo {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cp-alm-logo img {
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+  display: block;
+}
     </style>
   </head>
   <body>
@@ -2991,8 +3015,8 @@
             <a href="#overview">Overview</a>
             <a href="#specialisations">Curriculum</a>
             <a href="#outcomes">Outcomes</a>
-            <a href="#alumni">Alumni</a>
-            <a href="#apply">Apply</a>
+            <a href="#career-paths">Career Paths</a>
+            <a href="#ee-form-3">Apply</a>
             <a href="#faq">FAQ</a>
           </div>
           <div class="nav-r">
@@ -3004,7 +3028,7 @@
               </svg>
               1800-123-500041
             </a>
-            <a href="#apply" class="btn btn-r">Apply Now</a>
+            <a href="#ee-form-3" class="btn btn-r">Apply Now</a>
           </div>
           <button class="ham" id="hamBtn">
             <span></span><span></span><span></span>
@@ -3016,10 +3040,10 @@
         <a href="#specialisations">Curriculum</a>
         <a href="#outcomes">Outcomes</a>
         <a href="#alumni">Alumni</a>
-        <a href="#apply">Apply</a>
+        <a href="#ee-form-3">Apply</a>
         <a href="#faq">FAQ</a>
         <a href="tel:1800123500041">1800-123-500041</a>
-        <a href="#apply" class="btn btn-r">Apply Now</a>
+        <a href="#ee-form-3" class="btn btn-r">Apply Now</a>
       </div>
     </header>
 
@@ -3072,7 +3096,7 @@
             >
           </div>
           <div class="hero-ctas">
-            <a href="#apply" class="btn btn-r"
+            <a href="#ee-form-3" class="btn btn-r"
               ><svg
                 width="16"
                 height="16"
@@ -3088,7 +3112,7 @@
                 /></svg
               >Apply Now</a
             >
-            <a href="#apply" class="btn btn-ow"
+            <a href="#ee-form-3" class="btn btn-ow"
               ><svg
                 width="15"
                 height="15"
@@ -3233,7 +3257,7 @@
               <div class="feat-row">Located in Mumbai's media epicenter</div>
             </div>
             <div style="margin-top: 28px">
-              <a href="#apply" class="btn btn-r">Download Brochure</a>
+              <a href="#ee-form-3" class="btn btn-r">Download Brochure</a>
             </div>
           </div>
         </div>
@@ -3338,6 +3362,198 @@
       </div>
     </section>
 
+    <!-- 11 SPECIALISATIONS -->
+    <section class="spec-sec" id="specialisations">
+      <div class="container">
+        <div class="rv tc">
+          <span class="ew"
+            ><span class="ew-dot"></span>The Complete Media Ecosystem</span
+          >
+          <h2 class="h2">11 Specialisations Across Three Trimesters</h2>
+          <p class="sub" style="margin: 0 auto">
+            This media communication course covers the full spectrum — from
+            content creation to distribution, from traditional advertising to
+            OTT strategy, from brand management to celebrity partnerships.
+          </p>
+        </div>
+        <div class="spec-grid">
+          <div class="spec-card rv">
+            <div class="spec-n">01</div>
+            <div class="spec-info">
+              <div class="spec-name">OTT &amp; New-Age Media</div>
+              <p class="spec-desc">
+                Platform economics that enable scalable growth, content strategy
+                that retains subscribers, and streaming models that maximize
+                revenue.
+              </p>
+            </div>
+          </div>
+          <div class="spec-card rv d1">
+            <div class="spec-n">02</div>
+            <div class="spec-info">
+              <div class="spec-name">Film Marketing &amp; Distribution</div>
+              <p class="spec-desc">
+                Pre-release campaigns that build anticipation, box office
+                analysis that predicts success, and distribution economics that
+                ensure profitability.
+              </p>
+            </div>
+          </div>
+          <div class="spec-card rv d2">
+            <div class="spec-n">03</div>
+            <div class="spec-info">
+              <div class="spec-name">Celebrity &amp; Sports Management</div>
+              <p class="spec-desc">
+                Talent management that builds careers, brand partnerships that
+                create value, and endorsement strategy that drives consumer
+                action.
+              </p>
+            </div>
+          </div>
+          <div class="spec-card rv">
+            <div class="spec-n">04</div>
+            <div class="spec-info">
+              <div class="spec-name">Advertising &amp; PR</div>
+              <p class="spec-desc">
+                Campaign development that captures attention, creative strategy
+                that differentiates brands, and public relations that shapes
+                perception.
+              </p>
+            </div>
+          </div>
+          <div class="spec-card rv d1">
+            <div class="spec-n">05</div>
+            <div class="spec-info">
+              <div class="spec-name">Digital &amp; Social Media</div>
+              <p class="spec-desc">
+                Platform management that grows communities, content virality
+                that expands reach, and engagement optimization that drives
+                conversions.
+              </p>
+            </div>
+          </div>
+          <div class="spec-card rv d2">
+            <div class="spec-n">06</div>
+            <div class="spec-info">
+              <div class="spec-name">Integrated Marketing Communications</div>
+              <p class="spec-desc">
+                Multi-channel campaigns that ensure consistency, message
+                coordination that aligns touchpoints, and 360-degree strategy
+                that maximizes impact.
+              </p>
+            </div>
+          </div>
+          <div class="spec-card rv">
+            <div class="spec-n">07</div>
+            <div class="spec-info">
+              <div class="spec-name">Content Marketing</div>
+              <p class="spec-desc">
+                Writing that captivates audiences, producing that maintains
+                quality, and packaging content that enhances distribution and
+                engagement.
+              </p>
+            </div>
+          </div>
+          <div class="spec-card rv d1">
+            <div class="spec-n">08</div>
+            <div class="spec-info">
+              <div class="spec-name">Media Budgeting &amp; Finance</div>
+              <p class="spec-desc">
+                Financial planning that ensures feasibility, ROI measurement
+                that proves value, and cost management that controls spend.
+              </p>
+            </div>
+          </div>
+          <div class="spec-card rv d2">
+            <div class="spec-n">09</div>
+            <div class="spec-info">
+              <div class="spec-name">Event Management</div>
+              <p class="spec-desc">
+                Concept-to-execution planning that creates memorable
+                experiences, live activations that engage audiences, and
+                experiential marketing that builds connections.
+              </p>
+            </div>
+          </div>
+          <div class="spec-card rv">
+            <div class="spec-n">10</div>
+            <div class="spec-info">
+              <div class="spec-name">Radio, Television &amp; Print Media</div>
+              <p class="spec-desc">
+                Programming strategy that captures audiences, advertising models
+                that generate revenue, and traditional media distribution that
+                reaches mass markets.
+              </p>
+            </div>
+          </div>
+          <div class="spec-card rv d1">
+            <div class="spec-n">11</div>
+            <div class="spec-info">
+              <div class="spec-name">Brand &amp; Marketing Management</div>
+              <p class="spec-desc">
+                Positioning that differentiates brands, equity building that
+                creates value, and competitive analysis that informs strategy.
+              </p>
+            </div>
+          </div>
+          <div
+            class="spec-card rv d2"
+            style="
+              background: linear-gradient(
+                135deg,
+                var(--red-dk),
+                var(--red-mid)
+              );
+              border-color: transparent;
+              align-items: center;
+              justify-content: center;
+              text-align: center;
+              flex-direction: column;
+              gap: 8px;
+            "
+          >
+            <div
+              style="
+                font-family: var(--fd);
+                font-size: 2.5rem;
+                font-weight: 700;
+                color: #fff;
+                line-height: 1;
+                position: relative;
+                z-index: 1;
+              "
+            >
+              11
+            </div>
+            <div
+              style="
+                font-size: 0.82rem;
+                font-weight: 700;
+                color: rgba(255, 255, 255, 0.85);
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                position: relative;
+                z-index: 1;
+              "
+            >
+              Specialisations
+            </div>
+            <div
+              style="
+                font-size: 0.78rem;
+                color: rgba(255, 255, 255, 0.65);
+                position: relative;
+                z-index: 1;
+              "
+            >
+              One Program
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
     <!-- ══ SECTION HTML — replaces <section class="car-merged"> block ══ -->
     <section class="cp-sec" id="career-paths">
       <div class="container">
@@ -3556,6 +3772,9 @@
                     <div class="cp-alm-role">PR &amp; Communications</div>
                     <span class="cp-alm-co">Yash Raj Films</span>
                   </div>
+                  <div class="cp-alm-logo">
+                    <img src="images/logo/MNE_logo1.png" alt="Yash Raj Films" onerror="this.parentElement.style.display='none'">
+                  </div>
                 </div>
 
                 <div class="cp-alm-card">
@@ -3574,6 +3793,9 @@
                     <div class="cp-alm-name">Mihir Samant</div>
                     <div class="cp-alm-role">Asst. Manager Media Planning</div>
                     <span class="cp-alm-co">ZEE Entertainment</span>
+                  </div>
+                  <div class="cp-alm-logo">
+                    <img src="images/logo/MNE_logo2.png" alt="ZEE Entertainment" onerror="this.parentElement.style.display='none'">
                   </div>
                 </div>
 
@@ -3594,6 +3816,9 @@
                     <div class="cp-alm-role">Lead Cricket Operations</div>
                     <span class="cp-alm-co">Delhi Capitals</span>
                   </div>
+                  <div class="cp-alm-logo">
+                    <img src="images/logo/MNE_logo3.png" alt="Delhi Capitals" onerror="this.parentElement.style.display='none'">
+                  </div>
                 </div>
 
                 <div class="cp-alm-card">
@@ -3612,6 +3837,9 @@
                     <div class="cp-alm-name">Vipula Keny</div>
                     <div class="cp-alm-role">Marketing Analyst</div>
                     <span class="cp-alm-co">Google India</span>
+                  </div>
+                  <div class="cp-alm-logo">
+                    <img src="images/logo/MNE_logo4.png" onerror="this.parentElement.style.display='none'">
                   </div>
                 </div>
 
@@ -3632,6 +3860,9 @@
                     <div class="cp-alm-role">Marketing Manager</div>
                     <span class="cp-alm-co">Reliance Digital</span>
                   </div>
+                  <div class="cp-alm-logo">
+                    <img src="images/logo/MNE_logo5.png" onerror="this.parentElement.style.display='none'">
+                  </div>
                 </div>
 
                 <div class="cp-alm-card">
@@ -3650,6 +3881,9 @@
                     <div class="cp-alm-name">Sushmita Chandramouli</div>
                     <div class="cp-alm-role">Asst. Producer, CNBC TV18</div>
                     <span class="cp-alm-co">CNBC TV18</span>
+                  </div>
+                  <div class="cp-alm-logo">
+                    <img src="images/logo/MNE_logo6.png" onerror="this.parentElement.style.display='none'">
                   </div>
                 </div>
               </div>
@@ -3861,196 +4095,6 @@
     </section>
     <!-- END CAREER PATHS SECTION -->
 
-    <!-- 11 SPECIALISATIONS -->
-    <section class="spec-sec" id="specialisations">
-      <div class="container">
-        <div class="rv tc">
-          <span class="ew"
-            ><span class="ew-dot"></span>The Complete Media Ecosystem</span
-          >
-          <h2 class="h2">11 Specialisations Across Three Trimesters</h2>
-          <p class="sub" style="margin: 0 auto">
-            This media communication course covers the full spectrum — from
-            content creation to distribution, from traditional advertising to
-            OTT strategy, from brand management to celebrity partnerships.
-          </p>
-        </div>
-        <div class="spec-grid">
-          <div class="spec-card rv">
-            <div class="spec-n">01</div>
-            <div class="spec-info">
-              <div class="spec-name">OTT &amp; New-Age Media</div>
-              <p class="spec-desc">
-                Platform economics that enable scalable growth, content strategy
-                that retains subscribers, and streaming models that maximize
-                revenue.
-              </p>
-            </div>
-          </div>
-          <div class="spec-card rv d1">
-            <div class="spec-n">02</div>
-            <div class="spec-info">
-              <div class="spec-name">Film Marketing &amp; Distribution</div>
-              <p class="spec-desc">
-                Pre-release campaigns that build anticipation, box office
-                analysis that predicts success, and distribution economics that
-                ensure profitability.
-              </p>
-            </div>
-          </div>
-          <div class="spec-card rv d2">
-            <div class="spec-n">03</div>
-            <div class="spec-info">
-              <div class="spec-name">Celebrity &amp; Sports Management</div>
-              <p class="spec-desc">
-                Talent management that builds careers, brand partnerships that
-                create value, and endorsement strategy that drives consumer
-                action.
-              </p>
-            </div>
-          </div>
-          <div class="spec-card rv">
-            <div class="spec-n">04</div>
-            <div class="spec-info">
-              <div class="spec-name">Advertising &amp; PR</div>
-              <p class="spec-desc">
-                Campaign development that captures attention, creative strategy
-                that differentiates brands, and public relations that shapes
-                perception.
-              </p>
-            </div>
-          </div>
-          <div class="spec-card rv d1">
-            <div class="spec-n">05</div>
-            <div class="spec-info">
-              <div class="spec-name">Digital &amp; Social Media</div>
-              <p class="spec-desc">
-                Platform management that grows communities, content virality
-                that expands reach, and engagement optimization that drives
-                conversions.
-              </p>
-            </div>
-          </div>
-          <div class="spec-card rv d2">
-            <div class="spec-n">06</div>
-            <div class="spec-info">
-              <div class="spec-name">Integrated Marketing Communications</div>
-              <p class="spec-desc">
-                Multi-channel campaigns that ensure consistency, message
-                coordination that aligns touchpoints, and 360-degree strategy
-                that maximizes impact.
-              </p>
-            </div>
-          </div>
-          <div class="spec-card rv">
-            <div class="spec-n">07</div>
-            <div class="spec-info">
-              <div class="spec-name">Content Marketing</div>
-              <p class="spec-desc">
-                Writing that captivates audiences, producing that maintains
-                quality, and packaging content that enhances distribution and
-                engagement.
-              </p>
-            </div>
-          </div>
-          <div class="spec-card rv d1">
-            <div class="spec-n">08</div>
-            <div class="spec-info">
-              <div class="spec-name">Media Budgeting &amp; Finance</div>
-              <p class="spec-desc">
-                Financial planning that ensures feasibility, ROI measurement
-                that proves value, and cost management that controls spend.
-              </p>
-            </div>
-          </div>
-          <div class="spec-card rv d2">
-            <div class="spec-n">09</div>
-            <div class="spec-info">
-              <div class="spec-name">Event Management</div>
-              <p class="spec-desc">
-                Concept-to-execution planning that creates memorable
-                experiences, live activations that engage audiences, and
-                experiential marketing that builds connections.
-              </p>
-            </div>
-          </div>
-          <div class="spec-card rv">
-            <div class="spec-n">10</div>
-            <div class="spec-info">
-              <div class="spec-name">Radio, Television &amp; Print Media</div>
-              <p class="spec-desc">
-                Programming strategy that captures audiences, advertising models
-                that generate revenue, and traditional media distribution that
-                reaches mass markets.
-              </p>
-            </div>
-          </div>
-          <div class="spec-card rv d1">
-            <div class="spec-n">11</div>
-            <div class="spec-info">
-              <div class="spec-name">Brand &amp; Marketing Management</div>
-              <p class="spec-desc">
-                Positioning that differentiates brands, equity building that
-                creates value, and competitive analysis that informs strategy.
-              </p>
-            </div>
-          </div>
-          <div
-            class="spec-card rv d2"
-            style="
-              background: linear-gradient(
-                135deg,
-                var(--red-dk),
-                var(--red-mid)
-              );
-              border-color: transparent;
-              align-items: center;
-              justify-content: center;
-              text-align: center;
-              flex-direction: column;
-              gap: 8px;
-            "
-          >
-            <div
-              style="
-                font-family: var(--fd);
-                font-size: 2.5rem;
-                font-weight: 700;
-                color: #fff;
-                line-height: 1;
-                position: relative;
-                z-index: 1;
-              "
-            >
-              11
-            </div>
-            <div
-              style="
-                font-size: 0.82rem;
-                font-weight: 700;
-                color: rgba(255, 255, 255, 0.85);
-                letter-spacing: 1px;
-                text-transform: uppercase;
-                position: relative;
-                z-index: 1;
-              "
-            >
-              Specialisations
-            </div>
-            <div
-              style="
-                font-size: 0.78rem;
-                color: rgba(255, 255, 255, 0.65);
-                position: relative;
-                z-index: 1;
-              "
-            >
-              One Program
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- UNIQUE FEATURES (moved here, light red bg) -->
     <section class="ft-sec" id="features">
@@ -4121,253 +4165,6 @@
       </div>
     </section>
 
-    <!-- TRIMESTER — Desktop -->
-    <section class="tri-sec" id="structure">
-      <div class="container">
-        <div class="rv tc">
-          <span class="ew"
-            ><span class="ew-dot"></span>Your Learning Journey</span
-          >
-          <h2 class="h2">How the 11 Months Are Structured</h2>
-          <p class="sub" style="margin: 0 auto">
-            The program divides 11 months into three focused trimesters, each
-            building your capabilities progressively from foundational
-            frameworks to advanced execution.
-          </p>
-        </div>
-        <div class="tri-tabs rv">
-          <button class="tri-tab active" data-panel="t1">Trimester 1</button>
-          <button class="tri-tab" data-panel="t2">Trimester 2</button>
-          <button class="tri-tab" data-panel="t3">Trimester 3</button>
-          <button class="tri-tab" data-panel="t4">Capstone</button>
-        </div>
-        <div id="t1" class="tri-panel active">
-          <div class="tri-hdr">
-            <div class="tri-badge">T1</div>
-            <div class="tri-meta">
-              <div class="tri-lbl">Foundation Phase</div>
-              <div class="tri-title">Trimester 1: Foundation</div>
-              <span class="tri-months">Months 1–3</span>
-            </div>
-          </div>
-          <p
-            style="
-              font-size: 0.95rem;
-              color: var(--txt);
-              margin-bottom: 22px;
-              line-height: 1.75;
-            "
-          >
-            Build your understanding of media fundamentals, marketing
-            principles, and industry context.
-          </p>
-          <div class="tri-subj">
-            <div class="tri-s">
-              Marketing Management &amp; Consumer Behavior
-            </div>
-            <div class="tri-s">Media Research</div>
-            <div class="tri-s">Public Relations &amp; Corporate Branding</div>
-            <div class="tri-s">Art, Culture &amp; Entertainment</div>
-            <div class="tri-s">Film Appreciation</div>
-            <div class="tri-s">
-              Advertising Strategy &amp; Creative Development
-            </div>
-            <div class="tri-s">Event Management &amp; HR in Media</div>
-          </div>
-          <div class="tri-exp">
-            <strong>What You'll Experience:</strong> Interactive classroom
-            sessions, case studies, guest lectures, foundational projects
-          </div>
-        </div>
-        <div id="t2" class="tri-panel">
-          <div class="tri-hdr">
-            <div class="tri-badge">T2</div>
-            <div class="tri-meta">
-              <div class="tri-lbl">Application Phase</div>
-              <div class="tri-title">Trimester 2: Application</div>
-              <span class="tri-months">Months 4–6</span>
-            </div>
-          </div>
-          <p
-            style="
-              font-size: 0.95rem;
-              color: var(--txt);
-              margin-bottom: 22px;
-              line-height: 1.75;
-            "
-          >
-            Apply frameworks to real platforms, learn platform-specific
-            strategies, and understand current industry dynamics.
-          </p>
-          <div class="tri-subj">
-            <div class="tri-s">OTT and New Media Marketing</div>
-            <div class="tri-s">Digital &amp; Social Media</div>
-            <div class="tri-s">Script Writing &amp; Direction</div>
-            <div class="tri-s">Film Marketing</div>
-            <div class="tri-s">Media Laws &amp; Ethics</div>
-            <div class="tri-s">
-              Direct Marketing &amp; Consumer Buying Behavior
-            </div>
-            <div class="tri-s">Celebrity Management</div>
-          </div>
-          <div class="tri-exp">
-            <strong>What You'll Experience:</strong> Live brand projects,
-            industry visits, platform-specific workshops, guest lectures from
-            practitioners
-          </div>
-        </div>
-        <div id="t3" class="tri-panel">
-          <div class="tri-hdr">
-            <div class="tri-badge">T3</div>
-            <div class="tri-meta">
-              <div class="tri-lbl">Execution Phase</div>
-              <div class="tri-title">Trimester 3: Execution</div>
-              <span class="tri-months">Months 7–9</span>
-            </div>
-          </div>
-          <p
-            style="
-              font-size: 0.95rem;
-              color: var(--txt);
-              margin-bottom: 22px;
-              line-height: 1.75;
-            "
-          >
-            Execute complete campaigns, manage budgets, coordinate multi-channel
-            strategies, and work at professional pace.
-          </p>
-          <div class="tri-subj">
-            <div class="tri-s">Rural Media</div>
-            <div class="tri-s">Radio Production &amp; Programming</div>
-            <div class="tri-s">Media Budgeting &amp; Finance</div>
-            <div class="tri-s">Campaign Planning</div>
-            <div class="tri-s">Advertising Sales</div>
-            <div class="tri-s">Media Planning &amp; Buying</div>
-            <div class="tri-s">Film Exhibition &amp; Distribution</div>
-            <div class="tri-s">Sports Management</div>
-          </div>
-          <div class="tri-exp">
-            <strong>What You'll Experience:</strong> Complex live projects,
-            budget management exercises, multi-channel campaign execution,
-            advanced workshops
-          </div>
-        </div>
-        <div id="t4" class="tri-panel">
-          <div class="capstone-box">
-            <div class="cap-h">Capstone Project — Months 10–11</div>
-            <p>
-              Work directly with a company on a current industry challenge.
-              Execute a real project with professional stakes, building
-              portfolio work that demonstrates your capabilities to potential
-              employers.
-            </p>
-            <div class="cap-exp">
-              <strong>What You'll Experience:</strong> Full project ownership,
-              company mentorship, professional deliverables, portfolio-building
-              work
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- TRIMESTER — Mobile -->
-    <section class="tri-mob" id="structure-mobile">
-      <div class="container">
-        <div class="tc" style="margin-bottom: 32px">
-          <span class="ew"
-            ><span class="ew-dot"></span>Your Learning Journey</span
-          >
-          <h2 class="h2">How the 11 Months Are Structured</h2>
-        </div>
-        <div class="tri-mc">
-          <div class="tri-mh">
-            <div class="tri-mb t1">T1</div>
-            <div>
-              <div class="tri-mp">Foundation Phase</div>
-              <div class="tri-mt">Trimester 1: Foundation</div>
-              <span class="tri-mm">Months 1–3</span>
-            </div>
-          </div>
-          <div class="tri-ms">
-            <div class="tri-msi">
-              Marketing Management &amp; Consumer Behavior
-            </div>
-            <div class="tri-msi">Media Research</div>
-            <div class="tri-msi">Public Relations &amp; Corporate Branding</div>
-            <div class="tri-msi">Art, Culture &amp; Entertainment</div>
-            <div class="tri-msi">Film Appreciation</div>
-            <div class="tri-msi">
-              Advertising Strategy &amp; Creative Development
-            </div>
-            <div class="tri-msi">Event Management &amp; HR in Media</div>
-          </div>
-          <div class="tri-me">
-            <strong>What You'll Experience:</strong> Interactive classroom
-            sessions, case studies, guest lectures, foundational projects
-          </div>
-        </div>
-        <div class="tri-mc">
-          <div class="tri-mh">
-            <div class="tri-mb t2">T2</div>
-            <div>
-              <div class="tri-mp">Application Phase</div>
-              <div class="tri-mt">Trimester 2: Application</div>
-              <span class="tri-mm">Months 4–6</span>
-            </div>
-          </div>
-          <div class="tri-ms">
-            <div class="tri-msi">OTT and New Media Marketing</div>
-            <div class="tri-msi">Digital &amp; Social Media</div>
-            <div class="tri-msi">Script Writing &amp; Direction</div>
-            <div class="tri-msi">Film Marketing</div>
-            <div class="tri-msi">Media Laws &amp; Ethics</div>
-            <div class="tri-msi">
-              Direct Marketing &amp; Consumer Buying Behavior
-            </div>
-            <div class="tri-msi">Celebrity Management</div>
-          </div>
-          <div class="tri-me">
-            <strong>What You'll Experience:</strong> Live brand projects,
-            industry visits, platform-specific workshops, guest lectures
-          </div>
-        </div>
-        <div class="tri-mc">
-          <div class="tri-mh">
-            <div class="tri-mb t3">T3</div>
-            <div>
-              <div class="tri-mp">Execution Phase</div>
-              <div class="tri-mt">Trimester 3: Execution</div>
-              <span class="tri-mm">Months 7–9</span>
-            </div>
-          </div>
-          <div class="tri-ms">
-            <div class="tri-msi">Rural Media</div>
-            <div class="tri-msi">Radio Production &amp; Programming</div>
-            <div class="tri-msi">Media Budgeting &amp; Finance</div>
-            <div class="tri-msi">Campaign Planning</div>
-            <div class="tri-msi">Advertising Sales</div>
-            <div class="tri-msi">Media Planning &amp; Buying</div>
-            <div class="tri-msi">Film Exhibition &amp; Distribution</div>
-            <div class="tri-msi">Sports Management</div>
-          </div>
-          <div class="tri-me">
-            <strong>What You'll Experience:</strong> Complex live projects,
-            budget management, multi-channel execution, advanced workshops
-          </div>
-        </div>
-        <div class="cap-mob">
-          <h3>Capstone Project — Months 10–11</h3>
-          <p>
-            Work directly with a company on a current industry challenge.
-            Execute a real project with professional stakes, building portfolio
-            work that demonstrates your capabilities to potential employers.
-            Full project ownership, company mentorship, professional
-            deliverables.
-          </p>
-        </div>
-      </div>
-    </section>
 
     <!-- LEARNING EXPERIENCE -->
     <section class="lx-sec" id="learning">
@@ -4524,335 +4321,6 @@
               loading="lazy"
             ></iframe>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ALUMNI TICKER -->
-    <section class="alm-sec" id="alumni">
-      <div class="container">
-        <div class="rv tc">
-          <span class="ew"><span class="ew-dot"></span>Our Network</span>
-          <h2 class="h2">Our Alumni Work At</h2>
-          <p class="sub" style="margin: 0 auto">
-            Graduates of this program are building careers at India's most
-            iconic media, advertising, and entertainment companies.
-          </p>
-        </div>
-      </div>
-      <div class="ticker-wrap" style="margin-top: 52px">
-        <div class="ticker">
-          <div class="alm-card">
-            <img
-              src="images/Mihir-Samant.png"
-              alt="Mihir Samant"
-              class="alm-avatar"
-              onerror="this.style.display = 'none'"
-            />
-            <div class="alm-name">Mihir Samant</div>
-            <div class="alm-role">Assistant Manager Media Planning</div>
-            <span class="alm-co">ZEE Entertainment</span>
-          </div>
-          <div class="alm-card">
-            <img
-              src="images/Raisa-Ghosh.png"
-              alt="Raisa Ghosh"
-              class="alm-avatar"
-              onerror="this.style.display = 'none'"
-            />
-            <div class="alm-name">Raisa Ghosh</div>
-            <div class="alm-role">PR &amp; Communications</div>
-            <span class="alm-co">Yash Raj Films</span>
-          </div>
-          <div class="alm-card">
-            <img
-              src="images/Amit-Jadhav.png"
-              alt="Amit Jadhav"
-              class="alm-avatar"
-              onerror="this.style.display = 'none'"
-            />
-            <div class="alm-name">Amit Jadhav</div>
-            <div class="alm-role">Sr. Executive, Intl. Distribution</div>
-            <span class="alm-co">Eros International</span>
-          </div>
-          <div class="alm-card">
-            <img
-              src="images/chanali.jpg"
-              alt="Chanali Vyas"
-              class="alm-avatar"
-              onerror="this.style.display = 'none'"
-            />
-            <div class="alm-name">Chanali Vyas</div>
-            <div class="alm-role">Group Account Manager</div>
-            <span class="alm-co">Ogilvy India</span>
-          </div>
-          <div class="alm-card">
-            <img
-              src="images/Vipula Keny Google India.jpg"
-              alt="Vipula Keny"
-              class="alm-avatar"
-              onerror="this.style.display = 'none'"
-            />
-            <div class="alm-name">Vipula Keny</div>
-            <div class="alm-role">Marketing Analyst</div>
-            <span class="alm-co">Google India</span>
-          </div>
-          <div class="alm-card">
-            <img
-              src="images/Ankul Shilotri.jpg"
-              alt="Ankul Shilotri"
-              class="alm-avatar"
-              onerror="this.style.display = 'none'"
-            />
-            <div class="alm-name">Ankul Shilotri</div>
-            <div class="alm-role">Lead Cricket Operations</div>
-            <span class="alm-co">Delhi Capitals</span>
-          </div>
-          <div class="alm-card">
-            <img
-              src="images/Harshal Rumbe.jpg"
-              alt="Harshal Rumde"
-              class="alm-avatar"
-              onerror="this.style.display = 'none'"
-            />
-            <div class="alm-name">Harshal Rumde</div>
-            <div class="alm-role">Marketing Manager</div>
-            <span class="alm-co">Reliance Digital</span>
-          </div>
-          <div class="alm-card">
-            <img
-              src="images/Sushmita Chandramouli.jpg"
-              alt="Sushmita Chandramouli"
-              class="alm-avatar"
-              onerror="this.style.display = 'none'"
-            />
-            <div class="alm-name">Sushmita Chandramouli</div>
-            <div class="alm-role">Asst. Producer, Editorial &amp; Content</div>
-            <span class="alm-co">CNBC TV18</span>
-          </div>
-          <div class="alm-card">
-            <img
-              src="images/Shashank Singh.jpg"
-              alt="Shashank Singh"
-              class="alm-avatar"
-              onerror="this.style.display = 'none'"
-            />
-            <div class="alm-name">Shashank Singh</div>
-            <div class="alm-role">Manager Non-Subscription Revenue</div>
-            <span class="alm-co">Aha Video OTT</span>
-          </div>
-          <div class="alm-card">
-            <img
-              src="images/Priya Chaudhary.jpg"
-              alt="Priya Chaudhary"
-              class="alm-avatar"
-              onerror="this.style.display = 'none'"
-            />
-            <div class="alm-name">Priya Chaudhary</div>
-            <div class="alm-role">Manager, Campaign &amp; Events</div>
-            <span class="alm-co">Network18</span>
-          </div>
-          <div class="alm-card">
-            <img
-              src="images/Ankit Happy.jpg"
-              alt="Ankit Happy"
-              class="alm-avatar"
-              onerror="this.style.display = 'none'"
-            />
-            <div class="alm-name">Ankit Happy</div>
-            <div class="alm-role">Account Manager</div>
-            <span class="alm-co">Adfactors PR</span>
-          </div>
-          <!-- duplicate for seamless loop -->
-          <div class="alm-card">
-            <img
-              src="images/Mihir-Samant.png"
-              alt="Mihir Samant"
-              class="alm-avatar"
-              onerror="this.style.display = 'none'"
-            />
-            <div class="alm-name">Mihir Samant</div>
-            <div class="alm-role">Assistant Manager Media Planning</div>
-            <span class="alm-co">ZEE Entertainment</span>
-          </div>
-          <div class="alm-card">
-            <img
-              src="images/Raisa-Ghosh.png"
-              alt="Raisa Ghosh"
-              class="alm-avatar"
-              onerror="this.style.display = 'none'"
-            />
-            <div class="alm-name">Raisa Ghosh</div>
-            <div class="alm-role">PR &amp; Communications</div>
-            <span class="alm-co">Yash Raj Films</span>
-          </div>
-          <div class="alm-card">
-            <img
-              src="images/Vipula Keny Google India.jpg"
-              alt="Vipula Keny"
-              class="alm-avatar"
-              onerror="this.style.display = 'none'"
-            />
-            <div class="alm-name">Vipula Keny</div>
-            <div class="alm-role">Marketing Analyst</div>
-            <span class="alm-co">Google India</span>
-          </div>
-          <div class="alm-card">
-            <img
-              src="images/Ankul Shilotri.jpg"
-              alt="Ankul Shilotri"
-              class="alm-avatar"
-              onerror="this.style.display = 'none'"
-            />
-            <div class="alm-name">Ankul Shilotri</div>
-            <div class="alm-role">Lead Cricket Operations</div>
-            <span class="alm-co">Delhi Capitals</span>
-          </div>
-        </div>
-      </div>
-      <div class="container" style="margin-top: 40px">
-        <p
-          style="
-            text-align: center;
-            font-size: 0.75rem;
-            font-weight: 700;
-            letter-spacing: 1.5px;
-            text-transform: uppercase;
-            color: var(--g400);
-            margin-bottom: 20px;
-          "
-        >
-          Also at
-        </p>
-      </div>
-      <div class="emp-track-wrap">
-        <div class="emp-track">
-          <img
-            src="images/logo/1.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/2.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/3.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/4.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/5.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/6.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/7.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/8.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/9.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/10.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/11.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/12.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/13.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/14.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/1.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/2.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/3.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/4.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/5.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/6.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
-          <img
-            src="images/logo/7.jpg"
-            class="emp-logo"
-            alt=""
-            onerror="this.style.display = 'none'"
-          />
         </div>
       </div>
     </section>
@@ -5219,7 +4687,7 @@
               Institutional Ranking Framework (NIRF) and recognised as the No. 1
               Private Business School in Mumbai.
             </p>
-            <a href="#apply" class="btn btn-r" style="margin-top: 20px"
+            <a href="#ee-form-3" class="btn btn-r" style="margin-top: 20px"
               >Apply for 2026 Batch</a
             >
           </div>
@@ -5285,7 +4753,7 @@
       <div class="cta-l">
         <h2>Ready to launch your<br />media career?</h2>
       </div>
-      <a href="#apply" class="cta-r"
+      <a href="#ee-form-3" class="cta-r"
         ><h3>Apply Now &amp;<br />Book Free Counselling</h3></a
       >
     </div>
@@ -5309,7 +4777,7 @@
             <a href="mailto:pgpmedia@welingkarmail.org">
               pgpmedia@welingkarmail.org
             </a>
-            <a href="#apply">Enquire Now</a>
+            <a href="#ee-form-3">Enquire Now</a>
           </div>
 
           <div class="faq-intro rv d1">
@@ -5557,7 +5025,7 @@
     <!-- MOBILE BAR -->
     <div class="mob-bar">
       <div class="mob-bar-in">
-        <a href="#apply"
+        <a href="#ee-form-3"
           ><svg viewBox="0 0 24 24">
             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
             <polyline points="7 10 12 15 17 10" />
