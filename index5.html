@@ -2414,6 +2414,8 @@
       .cp-logo-track-wrap {
         overflow: hidden;
         padding: 0 80px;
+        transform: translateZ(0);
+        -webkit-transform: translateZ(0);
       }
       .cp-logo-track {
         display: flex;
@@ -2422,6 +2424,10 @@
         width: max-content;
         animation: cp-scroll 24s linear infinite;
         will-change: transform;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        transform: translateZ(0);
+        -webkit-transform: translateZ(0);
       }
       .cp-logo-track:hover {
         animation-play-state: paused;
@@ -2439,10 +2445,10 @@
       }
       @keyframes cp-scroll {
         from {
-          transform: translateX(0);
+          transform: translate3d(0, 0, 0);
         }
         to {
-          transform: translateX(-50%);
+          transform: translate3d(-50%, 0, 0);
         }
       }
 
@@ -3445,183 +3451,183 @@
               <img
                 src="images/logo/1.jpg"
                 alt="Employer"
-                loading="lazy"
+                loading="eager"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/2.jpg"
                 alt="Employer"
-                loading="lazy"
+                loading="eager"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/3.jpg"
                 alt="Employer"
-                loading="lazy"
+                loading="eager"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/4.jpg"
                 alt="Employer"
-                loading="lazy"
+                loading="eager"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/5.jpg"
                 alt="Employer"
-                loading="lazy"
+                loading="eager"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/6.jpg"
                 alt="Employer"
-                loading="lazy"
+                loading="eager"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/7.jpg"
                 alt="Employer"
-                loading="lazy"
+                loading="eager"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/8.jpg"
                 alt="Employer"
-                loading="lazy"
+                loading="eager"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/9.jpg"
                 alt="Employer"
-                loading="lazy"
+                loading="eager"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/10.jpg"
                 alt="Employer"
-                loading="lazy"
+                loading="eager"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/11.jpg"
                 alt="Employer"
-                loading="lazy"
+                loading="eager"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/12.jpg"
                 alt="Employer"
-                loading="lazy"
+                loading="eager"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/13.jpg"
                 alt="Employer"
-                loading="lazy"
+                loading="eager"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/14.jpg"
                 alt="Employer"
-                loading="lazy"
+                loading="eager"
                 onerror="this.style.display = 'none'"
               />
               <!-- Set 2: duplicate for seamless loop -->
               <img
                 src="images/logo/1.jpg"
                 alt=""
-                loading="lazy"
+                loading="eager"
                 aria-hidden="true"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/2.jpg"
                 alt=""
-                loading="lazy"
+                loading="eager"
                 aria-hidden="true"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/3.jpg"
                 alt=""
-                loading="lazy"
+                loading="eager"
                 aria-hidden="true"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/4.jpg"
                 alt=""
-                loading="lazy"
+                loading="eager"
                 aria-hidden="true"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/5.jpg"
                 alt=""
-                loading="lazy"
+                loading="eager"
                 aria-hidden="true"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/6.jpg"
                 alt=""
-                loading="lazy"
+                loading="eager"
                 aria-hidden="true"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/7.jpg"
                 alt=""
-                loading="lazy"
+                loading="eager"
                 aria-hidden="true"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/8.jpg"
                 alt=""
-                loading="lazy"
+                loading="eager"
                 aria-hidden="true"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/9.jpg"
                 alt=""
-                loading="lazy"
+                loading="eager"
                 aria-hidden="true"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/10.jpg"
                 alt=""
-                loading="lazy"
+                loading="eager"
                 aria-hidden="true"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/11.jpg"
                 alt=""
-                loading="lazy"
+                loading="eager"
                 aria-hidden="true"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/12.jpg"
                 alt=""
-                loading="lazy"
+                loading="eager"
                 aria-hidden="true"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/13.jpg"
                 alt=""
-                loading="lazy"
+                loading="eager"
                 aria-hidden="true"
                 onerror="this.style.display = 'none'"
               />
               <img
                 src="images/logo/14.jpg"
                 alt=""
-                loading="lazy"
+                loading="eager"
                 aria-hidden="true"
                 onerror="this.style.display = 'none'"
               />
